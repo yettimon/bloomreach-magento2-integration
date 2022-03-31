@@ -14,9 +14,9 @@ use Magento\Framework\Serialize\SerializerInterface;
  */
 class RegisteredGenerator
 {
-    const EMAIL_ID = 'email_id';
+    const EMAIL_ID = 'email';
 
-    const CUSTOMER_ID = 'customer_id';
+    const CUSTOMER_ID = 'account_id';
 
     /**
      * @var SerializerInterface
