@@ -61,6 +61,7 @@ class UpdateCatalogItem implements TransporterInterface
     {
         $properties = $this->jsonSerializer->unserialize($exportQueue->getBody());
         $itemId = $properties['item_id'] ?? '';
+        unset($properties['item_id']);
         $body = ['properties' => $properties];
         $this->responseHandler->handle(
             $this->updateCatalogItemRequest->execute($body, $itemId, $exportQueue->getEntityType())
