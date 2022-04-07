@@ -231,7 +231,7 @@
             <field code="region"/>
         </bloomreach_code>
         <bloomreach_code code="email">
-            <field code="email"/>
+            <field code="emailattribute"/>
         </bloomreach_code>
     </entity_type>
     <entity_type entity="purchase">

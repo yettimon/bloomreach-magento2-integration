@@ -66,6 +66,7 @@ class GetCustomerAttributeValue
             'group_id' => 'getGroupId',
             'lastname' => 'getLastName',
             'middlename' => 'getMiddlename',
+            'emailattribute' => 'getEmail',
             'prefix' => 'getPrefix',
             'store_id' => 'getStoreId',
             'suffix' => 'getSuffix',
