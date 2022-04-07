@@ -200,9 +200,6 @@
         </bloomreach_code>
     </entity_type>
     <entity_type entity="customer">
-        <bloomreach_code code="email_id">
-            <field code="email"/>
-        </bloomreach_code>
         <bloomreach_code code="customer_id">
             <field code="entity_id"/>
         </bloomreach_code>
