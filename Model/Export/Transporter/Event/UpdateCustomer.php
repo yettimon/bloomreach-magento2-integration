@@ -84,9 +84,9 @@ class UpdateCustomer implements TransporterInterface
     {
         $properties = $this->jsonSerializer->unserialize($exportQueue->getBody());
 
-        if (is_array($properties)) {
-            $this->registeredGenerator->deleteRegisteredData($properties);
-        }
+        // if (is_array($properties)) {
+        //     $this->registeredGenerator->deleteRegisteredData($properties);
+        // }
 
         return [
             'customer_ids' => $this->jsonSerializer->unserialize($exportQueue->getRegistered()),
