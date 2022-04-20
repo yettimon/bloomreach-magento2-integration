@@ -232,7 +232,7 @@
         </bloomreach_code>
     </entity_type>
     <entity_type entity="purchase">
-        <bloomreach_code code="email_id">
+        <bloomreach_code code="email">
             <field code="customer_email"/>
         </bloomreach_code>
         <bloomreach_code code="customer_id">
@@ -265,7 +265,7 @@
         <bloomreach_code code="total_price">
             <field code="base_grand_total"/>
         </bloomreach_code>
-        <bloomreach_code code="total_price_local_currency">
+        <bloomreach_code code="total_price_local_currency" disabled="true">
             <field code="grand_total"/>
         </bloomreach_code>
         <bloomreach_code code="local_currency">
@@ -285,7 +285,7 @@
         </bloomreach_code>
     </entity_type>
     <entity_type entity="purchase_item">
-        <bloomreach_code code="email_id">
+        <bloomreach_code code="email">
             <field code="customer_email"/>
         </bloomreach_code>
         <bloomreach_code code="customer_id">
